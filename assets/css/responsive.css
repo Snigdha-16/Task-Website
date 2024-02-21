@@ -1,0 +1,290 @@
+@media screen and (max-width: 780px) {
+  /* header */
+  header .logo img {
+    width: 65%;
+}
+   header .logo {
+      margin-right: auto;
+    }
+    header  nav.head-list {
+      display: none;
+    }
+  
+    header  nav ul {
+      display: flex;
+      flex-direction: column;
+      line-height: initial;
+    }
+  
+    header   nav ul li {
+      margin: 10px 0;
+    }
+  
+    header  nav {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 100px;
+      right: 0;
+      width: 100%;
+      
+    }
+  
+    header  nav.open {
+      margin-top: -10px;
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      background: #fff;
+      z-index: 1;
+      padding: 25px 0px;
+      /* margin-right: 100px; */
+  }
+  .navbtn a {
+      margin-left:30px;
+  }
+
+  header{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  header nav ul li {
+      margin: 10px 0;
+    }
+  
+    header   .menu-icon {
+      display: block;
+      cursor: pointer;
+    } /* header */
+
+
+/* banner */
+.banner .d-md-block h1 {
+  font-size: 18px !important ;
+  margin-bottom: 0px;
+}
+.banner .carousel-caption.d-md-block {
+    padding: 25px 1px !important;
+    margin: 53px 0px !important;
+}
+.banner .w-100 {
+  height: auto;
+  object-fit: cover;
+  width: 100% !important;
+}
+
+.banner .d-md-block p {
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 0px;
+}
+.banner .carousel-caption.d-md-block {
+
+}
+/* banner */
+/* review */
+/* .reviewsection {
+  padding: 30px 30px;
+  height: 350px;
+}
+
+.reviewsection .releft {
+  margin-bottom: 25px;
+}
+
+.reviewsection .reimg {
+  margin-bottom: 25px;
+}
+.reviewsection .releft h2 {
+  text-align: center;
+}
+.reimg img {
+  margin-left: 60px;
+}
+
+.reright p {
+  text-align: center;
+} */
+/* review */
+
+/* worksection */
+.worksection {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.worksection h2 {
+  margin-bottom: 15px;
+}
+.container-card {
+  display: grid;
+  grid-template-columns: repeat(1, 0fr) !important;
+  margin-bottom: 10px;
+}
+
+.container-card .card {
+  margin-bottom: 15px;
+  margin-right: 0px;
+}
+/* worksection */
+
+
+/* aboutsection */
+.aboutsection {
+  display: contents;
+}
+
+.aboutsection .aboutimg img {
+  margin-bottom: 0px;
+ 
+}
+
+.aboutcontent {
+  margin-bottom: 30px;
+}
+.aboutsection .aboutcontent h3 {
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+/* about */
+
+/* bestseller */
+.cardcontent {
+  margin-bottom: 30px;
+}
+.bestserller {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+.bestserller h2 {
+  margin-bottom: 10px;
+}
+.bestcard {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.bestserller p {
+  padding: 0px 10px;
+}
+/* bestseller */
+
+
+/* form */
+.formsection {
+  padding: 50px 0px 50px 0px;
+}
+.formsection .carousel {
+  margin-right: 0px;
+  margin-bottom: 30px;
+}
+.formsection img.d-block.w-100 {
+  height: auto;
+}
+.formsection .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.formsection select {
+  width: 100%;
+}
+.formsection input#appointmentDate {
+  width: 100%;
+}
+.formsection input#appointmentTime {
+  width: 100%;
+}
+/* form */
+
+  }
+  
+   @media screen and (max-width: 550px) {
+  .banner .carousel-caption.d-md-block {
+  padding: 8px 8px !important;
+  margin-bottom: 0px;
+  background: #f1e5d5c7;
+}
+.banner .d-md-block h1 {
+    font-size: 18px !important;
+    
+    line-height: 19px;
+    margin-bottom: 0;
+}
+.banner .carousel-caption.d-md-block {
+    margin: 0px 0px  !important;
+}}
+  
+  @media screen and (max-width: 1040px) {
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    line-height: 75px;
+    gap: 0px;
+    margin-left: 30px;
+}
+      nav ul li {
+    margin-right: 14px;
+}
+header {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+  }
+ 
+
+  @media screen and (max-width: 1300px) {
+    .banner .carousel-caption.d-md-block {
+      margin: 60px 0px;
+  }
+
+  }
+
+
+  @media screen and (max-width: 1260px) {
+    .container-card {
+      display: grid;
+      grid-template-columns: repeat(3, 0fr);
+  }
+  .container-card .card {
+    margin-bottom: 20px;
+}
+  }
+
+
+  @media screen and (max-width: 1200px) {
+    .banner .carousel-caption.d-md-block {
+      margin: 35px 0px;
+  }
+
+  }
+
+  @media screen and (max-width: 1130px) {
+    .banner .d-md-block h1 {
+      font-size: 50px;
+      color: rgb(51, 50, 51);
+      text-transform: capitalize;
+      margin-bottom: 28px;
+  }
+  .banner .carousel-caption.d-md-block {
+    padding: 60px 50px;
+}
+
+  }
+
+  @media screen and (max-width: 970px) {
+    .banner .d-md-block h1 {
+      font-size: 40px;
+      margin-bottom: 12px;
+  }
+  .banner .carousel-caption.d-md-block {
+    padding: 43px 50px;}
+    .container-card {
+      display: grid;
+      grid-template-columns: repeat(2, 0fr);
+  }
+  }
+
+
+
